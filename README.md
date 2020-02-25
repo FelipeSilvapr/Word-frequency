@@ -1,9 +1,11 @@
 # Word frequency
 > A site that counts down the frequency of words in texts and sites
-> This project is based in the collection of application ideas https://github.com/florinpop17/app-ideas
-> The aim of this project is to guide my studing in HTML, CSS and Javascript
 
-## Tecnologis 
+> This project is based on the collection of application ideas https://github.com/florinpop17/app-ideas
+
+> this project aims to guide my studying in HTML, CSS, and Javascript
+
+## Technologies 
 - HTML
 - CSS
 - Javascript
