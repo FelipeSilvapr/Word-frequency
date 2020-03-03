@@ -3,7 +3,7 @@
 
 > This project is based on the collection of application ideas https://github.com/florinpop17/app-ideas
 
-> this project aims to guide my studying in HTML, CSS, and Javascript
+> This project aims to guide my studying in HTML, CSS, and Javascript
 
 ## Technologies 
 - HTML
