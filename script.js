@@ -6,6 +6,7 @@ counts.addEventListener('click', frequency, false);
 function frequency() {
     var text = textInput.value;
     var words = treatString(text); 
+    console.log(words);
     makeTable(words);   
 }
 
@@ -75,12 +76,13 @@ function unique(array) {
 }
 
 function makeTable(array){
+        
     var container = document.getElementById('tableWords');
     container.innerHTML = null;
 
     var table = document.createElement('table');
     var tableBody = document.createElement('tbody');
-    
+
     for(let i = 0; i < array.length; i++){
 
         var row = document.createElement('tr');
@@ -107,5 +109,5 @@ function makeTable(array){
 
     table.append(tableBody);
     table.setAttribute('border', '2');
-    container.append(table);    
+    container.append(table);
 }
